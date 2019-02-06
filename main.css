@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface:regular);
+
+a { color: white; text-decoration: none; }
+
+.carousel-caption * {
+  
+    text-shadow:0 0 30px rgba(0, 0, 0, 0.226);
+    text-align: left;
+}
+
+.carousel-caption h2 {
+    font-size: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.carousel-caption {
+    margin-bottom: 50px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+
+  .arrow {
+    text-align: center;
+    margin: 20px;
+  }
+  .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+.slideimg1 {
+    background: url(img/b1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-background-position: bottom;
+    -moz-background-position: bottom;
+    -o-background-position: bottom;
+    background-position: bottom;
+
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    background-attachment: fixed;
+
+    height:100vh;
+
+}
+
+.slideimg2 {
+    background: url(img/b2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-background-position: bottom;
+    -moz-background-position: bottom;
+    -o-background-position: bottom;
+    background-position: bottom;
+
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    background-attachment: fixed;
+
+    height:100vh;
+
+}
+
+.slideimg3 {
+    background: url(img/b3.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-background-position: bottom;
+    -moz-background-position: bottom;
+    -o-background-position: bottom;
+    background-position: bottom;
+
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    background-attachment: fixed;
+
+    height:100vh;
+}
+
+
+
+.navbar-brand span {
+    color: #FFB900;
+}
+
+.navbar-brand {
+    color: #181819;
+    text-transform: uppercase;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
