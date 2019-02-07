@@ -4,5 +4,5 @@
 ##### BOOSTRAP 4 THEME MADE BY ME
 
 
-VIEW DEMO [Alt Text](https://matadorhernan.github.io/)
+VIEW [DEMO](https://matadorhernan.github.io/)
 
