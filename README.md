@@ -1,7 +1,7 @@
 ![GitHub Logo](/img/git-ico.svg)
 
-# LIQUID THEME
-##### BOOSTRAP 4 THEME MADE BY ME
+# Liquid Resume (BY Miguel Romero)
+##### Supports Angular Routing
 
 
 VIEW [DEMO](https://matadorhernan.github.io/)
